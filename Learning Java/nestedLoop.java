@@ -12,6 +12,8 @@ public class nestedLoop{
             }
         }
         */
+       
+       /*
        for(int i=1; i<=2; i++){
         System.out.println("Outer ");
         
@@ -19,5 +21,12 @@ public class nestedLoop{
             System.out.println("Inner " + j);
         }
        }
+       */
+
+      // For-Each Loop
+      String[] fruits = {"Apple","Banana","cherry"};
+      for(String i: fruits){
+        System.out.println(i);
+      }
     }
 }
