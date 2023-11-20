@@ -1,8 +1,8 @@
-public class basicCalculation{
+public class basicCalculation{ // class name should match with file name
     public static void main(String[] args){
-        System.out.println(2+3);
-        System.out.println(3-2);
-        System.out.println(3*2);
-        System.out.println(10/2);
+        System.out.println(2+3); // Addition
+        System.out.println(3-2); // Subtraction
+        System.out.println(3*2); // Multiplication
+        System.out.println(10/2); // Division
     }
 }
