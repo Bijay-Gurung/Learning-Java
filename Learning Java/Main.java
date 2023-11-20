@@ -10,7 +10,7 @@ public class Main{
     System.out.println(2);
     System.out.println(3);
 
-    //Declaring Variable
+    //Declaring Variable and String Concatenation
     String name = "Bijay";
     int age = 19;
     System.out.println("My name is " + name +"." + " I am " + age + " years old.");
