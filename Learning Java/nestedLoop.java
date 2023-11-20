@@ -24,9 +24,29 @@ public class nestedLoop{
        */
 
       // For-Each Loop
+      /*
       String[] fruits = {"Apple","Banana","cherry"};
       for(String i: fruits){
         System.out.println(i);
       }
+      */
+
+     // Break
+     /*
+     for (int i=0; i<= 10; i++){
+        if(i == 6){
+            break;
+        }
+        System.out.println(i);
+     }
+     */
+
+    // Continue
+    for (int i=0; i <= 10; i++){
+        if(i == 6){
+            continue;
+        }
+        System.out.println(i);
+    }
     }
 }
